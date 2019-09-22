@@ -98,6 +98,12 @@
   background-color: white;
   color: #FF0513;
 }
+@media (max-width: 1366px) {
+  ._1jp0h-Qdd4QHT_5xQq5oTD {
+    width: 360px;
+    height: auto;
+  }
+}
 
 ._2C5xTtzSbldprRL969nkls {
   background: url('/static/ServicesBackground.png') no-repeat center center;
