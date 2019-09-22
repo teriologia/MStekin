@@ -104,10 +104,13 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_svg_loader_assets_Dots_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-svg-loader!../assets/Dots.svg */ "./node_modules/react-svg-loader/lib/loader.js!./assets/Dots.svg");
+/* harmony import */ var react_svg_loader_static_Dots_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-svg-loader!../static/Dots.svg */ "./node_modules/react-svg-loader/lib/loader.js!./static/Dots.svg");
+/* harmony import */ var _styles_home_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/home.less */ "./styles/home.less");
+/* harmony import */ var _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_home_less__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "C:\\Users\\HP\\Desktop\\Deneme\\Portfolio\\components\\Home.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -115,284 +118,175 @@ const Home = () => {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
-  }, __jsx("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: undefined
-  }, __jsx(react_svg_loader_assets_Dots_svg__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    className: "dots",
+  }, __jsx("div", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.container,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: undefined
-  }), __jsx("hr", {
-    className: "line",
+  }, __jsx(react_svg_loader_static_Dots_svg__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.dots,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: undefined
-  }), __jsx("ul", {
-    className: "links",
+  }), __jsx("hr", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.line,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: undefined
-  }, __jsx("li", {
-    className: "link",
+  }), __jsx("ul", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.links,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: undefined
-  }, "link"), __jsx("li", {
-    className: "link",
+  }, __jsx("li", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.link,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: undefined
   }, "link"), __jsx("li", {
-    className: "link",
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.link,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: undefined
   }, "link"), __jsx("li", {
-    className: "link",
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.link,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: undefined
+  }, "link"), __jsx("li", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.link,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
   }, "link")), __jsx("div", {
-    className: "content",
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.content,
     style: {
       width: '100%'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: undefined
-  }, __jsx("div", {
-    className: "menu",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: undefined
-  }, __jsx("ul", {
-    className: "list",
+  }, __jsx("div", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.menu,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: undefined
-  }, __jsx("li", {
-    className: "item active",
+  }, __jsx("ul", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.list,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: undefined
-  }, "Home"), __jsx("li", {
-    className: "item",
+  }, __jsx("li", {
+    className: [_styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.item, _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.active].join(" "),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: undefined
   }, "Home"), __jsx("li", {
-    className: "item",
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.item,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: undefined
   }, "Home"), __jsx("li", {
-    className: "item",
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.item,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: undefined
   }, "Home"), __jsx("li", {
-    className: "item",
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.item,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: undefined
-  }, "Home"))), __jsx("div", {
-    className: "content",
+  }, "Home"), __jsx("li", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.item,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 24
     },
     __self: undefined
-  }, __jsx("div", {
-    className: "hi",
+  }, "Home"))), __jsx("div", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.content,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: undefined
-  }, __jsx("p", {
-    className: "hello",
+  }, __jsx("div", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.hi,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: undefined
-  }, "Hello, I am"), __jsx("p", {
-    className: "name",
+  }, __jsx("p", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.hello,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     },
     __self: undefined
-  }, "Mehmet Serdar Tekin"), __jsx("p", {
-    className: "web",
+  }, "Hello, I am"), __jsx("p", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.name,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: undefined
-  }, "Web, Mobile and Game Developer"), __jsx("button", {
-    class: "button",
+  }, "Mehmet Serdar Tekin"), __jsx("p", {
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.web,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: undefined
+  }, "Web, Mobile and Game Developer"), __jsx("button", {
+    class: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.button,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: undefined
   }, "Contact Me")), __jsx("img", {
     src: "/static/lastestPP.png",
-    className: "image",
+    className: _styles_home_less__WEBPACK_IMPORTED_MODULE_2___default.a.image,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: undefined
-  })))), __jsx("style", {
-    scoped: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: undefined
-  }, `
-            .container {
-                width: 100%;
-                display: flex;
-                height: 100vh;
-                background: #0E0C38;
-            }
-            .line {
-                border: 1px solid #d1d1d1;
-                margin-left: 70px;
-            }
-            .dots {
-                position: absolute;
-                left: 300px;
-            }
-            .menu {
-                color: white;
-                width: 100%; 
-                height: 70px;
-                display: flex;
-                justify-content: flex-end;
-                position: absolute;
-                top: 0;
-            }
-            .list {
-                display: flex;
-                flex-direction: row;
-                padding-right: 100px;
-            }
-            .item {
-                display: flex;
-                align-items: flex-end;
-                padding: 20px; 
-            }
-            .active {
-                background: #FF0513;
-                font-weight: bold;
-            }
-            .item:Hover {
-                background: rgba(255,05,13,0.5);
-            }
-            .content {
-                display: flex;
-                flex-grow: 1;
-                justify-content: flex-end;
-                align-items: flex-end;
-                padding-right: 100px;
-            }
-            .image {
-                width: 480px;
-                height: auto;
-            }
-            .hi {
-                display: flex;
-                width: 50%;
-                height: 60vh;
-                flex-direction: column;
-            }
-            .hello {
-                color: white;
-                letter-spacing: 0.5;
-                font-size: 20px;
-                letter-spacing: 0.5;
-            }
-            .name {
-                font-size: 60px;
-                color: white;
-                margin-top: 20px;
-                margin-bottom: 15px;
-            }
-            .web {
-                font-size: 20px;
-                color: white;
-                letter-spacing: 0.5;
-            }
-            .links {
-                position: absolute;
-                bottom: 20vh;
-                left: 60px;
-                background: #0E0C38;
-            }
-            .link {
-                padding-top: 30px;
-                padding-bottom: 30px;
-                color: white;
-            }
-            .button {
-                background: #FF0513;
-                display: block;
-                border: 0px;
-                margin-top: 60px;
-                width: 160px;
-                height: 60px;
-                border-radius: 6px;
-                color: #FFF;
-                font-size: 20px;
-                transition: .4s ease;
-            }
-            .button:hover{
-                background-color:white;
-                color:#FF0513;
-            }
-            `));
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -488,9 +382,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/react-svg-loader/lib/loader.js!./assets/Dots.svg":
+/***/ "./node_modules/react-svg-loader/lib/loader.js!./static/Dots.svg":
 /*!***********************************************************************!*\
-  !*** ./node_modules/react-svg-loader/lib/loader.js!./assets/Dots.svg ***!
+  !*** ./node_modules/react-svg-loader/lib/loader.js!./static/Dots.svg ***!
   \***********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -14973,6 +14867,34 @@ const Index = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
+
+/***/ }),
+
+/***/ "./styles/home.less":
+/*!**************************!*\
+  !*** ./styles/home.less ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"container": "MZpN-_OYgbHd82yiIgaOl",
+	"line": "ITJIWO8xQlLss4MnkQZmr",
+	"dots": "_3MZKgdIEkOjzoe2PJ1X3Ce",
+	"menu": "n20vZHq4Wufahey4asdBj",
+	"list": "t5k-U9yc4zJeP1ggeuTMS",
+	"item": "_2BskaqmEgdTd8UYM7hYa0J",
+	"active": "_3wtQ4BBNgTe4xjMHE405op",
+	"content": "_1TuWn6GfSo_21x88mmnXHQ",
+	"image": "_1jp0h-Qdd4QHT_5xQq5oTD",
+	"hi": "_12UyC-VyUSOCmKfUTnkiJI",
+	"hello": "_1Wq_afo3O-MnwrFlmctW-h",
+	"name": "_8aPSlxXNFm0pZT8VQT27L",
+	"web": "_3KhIiZJOAo6urPPj_D4M3x",
+	"links": "_3rlNpmbX0D6litCqWQOgFo",
+	"link": "C3cr2nHDU9PPE92ohKxEF",
+	"button": "_1P2SYeiXhSzntcevpS8ifV"
+};
 
 /***/ }),
 

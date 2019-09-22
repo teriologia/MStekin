@@ -4,7 +4,8 @@
   "description": "Portfolio web site with next.js",
   "main": "index.js",
   "scripts": {
-    "start": "next start",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
     "build": "next build",
     "dev": "next",
     "export": "next export",
